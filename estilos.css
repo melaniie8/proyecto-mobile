@@ -3,16 +3,23 @@
     margin: 0px;
 }
 
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
 .container__prinpipal{
     display: flex;
     justify-content: space-evenly;
     background-image: linear-gradient(to top, palevioletred,pink);
 }
 
+
 .title{
     font-family: 'Source Code Pro', monospace;
     position: absolute;
-    left: 40%;
+    left: 5%;
 }
 .link{
     display: flex;
@@ -81,8 +88,8 @@ font-size: 20px;
 }
 
 .foto:hover {
-    width: 125px;
-    height: 175px;
+    width: 300px;
+    height: 400px;
 ;
 }
 
