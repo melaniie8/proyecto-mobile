@@ -218,7 +218,6 @@ font-size: 30px;
 
 
 
-
 @media (min-width:1200px){
     .foto{
         width: 250px;
@@ -229,15 +228,17 @@ font-size: 30px;
 
 @media (min-width:600px){
     .pagination{
-    bottom: 400px;
+    bottom: 450px;
     left: 450px;
+    
     }
 }
 
-@media (min-width:585px){
+@media (min-width:400px){
     .pagination{
     bottom: 150px;
     left: 150px;
+    font-size: 20px;
     }
 }
 @media (min-width:759px){
