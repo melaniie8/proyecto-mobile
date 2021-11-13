@@ -1,8 +1,63 @@
-.boton_menu {
+.container__prinpipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(palevioletred), to(pink));
+  background-image: linear-gradient(to top, palevioletred, pink);
+}
+
+.container__prinpipal .title {
+  font-family: 'Source Code Pro', monospace;
+  position: absolute;
+  left: 5%;
+}
+
+.container__prinpipal .title .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  padding: 5px;
+}
+
+.container__prinpipal .title .link .link:hover {
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: black;
+  background-color: #E2CACA;
+}
+
+.container__prinpipal .title .link .link:hover .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  top: 15px;
+  right: 10px;
+  list-style: none;
+  padding: 10px;
+}
+
+.container__prinpipal .title .link .link:hover .items .bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  font-size: 30px;
+}
+
+.container__prinpipal .title .link .link:hover .items .bars .icons-icons {
   font-size: 20px;
-  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
